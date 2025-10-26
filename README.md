@@ -1,46 +1,99 @@
-# Ahmed Laminou Platformer Game
 
-Un jeu de plateforme complet développé avec Pygame.
+# 🎮 Ahmed Laminou Platformer
 
-## Description
-Ce jeu est un platformer où vous incarnez un personnage devant sauter de plateforme en plateforme, ramasser des pièces, éviter les ennemis, et progresser à travers plusieurs niveaux. Le jeu propose :
-- Plusieurs niveaux générés dynamiquement
-- Gestion du score et de l’historique des scores
-- Système de vies
-- Ennemis mobiles
-- Sons (saut, pièce, game over, etc.)
-- Boutons pour recommencer, quitter, mettre en pause et continuer
-- Interface simple et efficace
+![Platformer Preview](assets/screenshot.png)  <!-- Replace with an actual screenshot or GIF -->
 
-## Contrôles
-- **Flèche gauche/droite** : déplacer le joueur
-- **Espace** : sauter
-- **P** : pause/continuer
-- **Souris** : cliquer sur les boutons (Recommencer, Quitter, Rejouer)
+[![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2.1.2-green?logo=pygame&logoColor=white)](https://www.pygame.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue?logo=github)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/pygame-platformer)](https://github.com/YOUR_USERNAME/pygame-platformer/issues)
 
-## Installation
-1. Installez Python 3.x et Pygame :
-   ```pwsh
-   pip install pygame
-   ```
-2. Placez les fichiers du jeu dans le dossier `Pygame`.
-3. Placez les fichiers sons (`jump.wav`, `coin.wav`, `gameover.wav`, `hit.wav`) dans un dossier `assets` à la racine du projet.
-4. Lancez le jeu :
-   ```pwsh
-   python main.py
-   ```
+---
 
-## Fichiers
-- `main.py` : boucle principale, gestion du joueur, des niveaux, de l’interface
-- `other.py` : gestion des niveaux (Level)
-- `another.py` : gestion de l’historique des scores (ScoreManager)
-- `assets/` : sons du jeu
+## 🕹️ Overview
 
-## Auteur
-Ahmed Laminou
+**Ahmed Laminou Platformer** is a 2D platformer game built with **Python & Pygame**.  
+Guide your player through challenging platforms, collect coins, avoid enemies, and enjoy dynamic levels with smooth physics.
 
-## Améliorations possibles
-- Ajout de graphismes personnalisés
-- Système de sauvegarde
-- Plus d’ennemis et de power-ups
-- Classement en ligne
+✨ **Key Features**
+- ✅ Smooth player movement and jumping mechanics  
+- ✅ Dynamic platform generation across multiple levels  
+- ✅ Coin collection system and scoring  
+- ✅ Enemy collisions and life system  
+- ✅ Pause, restart, and menu navigation  
+- ✅ Sound effects for jumping, coin collection, and game over  
+- ✅ Stats, settings, and story screens  
+
+---
+
+## 🎮 Controls
+
+| Action            | Key / Input        |
+|------------------|------------------|
+| Move Left         | ← (Left Arrow)   |
+| Move Right        | → (Right Arrow)  |
+| Jump              | Spacebar         |
+| Pause / Resume    | P                |
+| Menu Selection    | Mouse click       |
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+```bash
+
+Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+Install dependencies
+pip install -r requirements.txt
+
+Run the game
+python main.py
+
+📂 Project Structure
+├─ assets/            # Images, sounds, and sprites
+├─ main.py            # Main game script
+├─ entities.py        # Platform, Coin, Enemy classes
+├─ other.py           # Level generation
+├─ another.py         # ScoreManager
+├─ menu.py            # Main menu
+├─ stats.py           # Stats screen
+├─ settings.py        # Settings screen
+├─ story.py           # Story screen
+├─ README.md
+├─ requirements.txt
+
+✨ Contribution
+
+This project is open-source. Contributions are welcome!
+
+You can contribute by:
+
+🐛 Fixing bugs
+
+🌟 Adding new features or levels
+
+🎨 Improving graphics or sound effects
+
+🧹 Refactoring and optimizing code
+
+📜 License
+
+MIT License © Ahmed Laminou
+
+💡 Notes
+
+Ensure all assets (images, sounds) are in the assets/ folder.
+
+Compatible with Python 3.10+ and Pygame 2.1.2+.
+
+Ideal for showcasing in portfolios or learning projects.
+
+
+git clone https://github.com/YOUR_USERNAME/pygame-platformer.git
+cd pygame-platformer
+>>>>>>> b4de50606acdb8f23a13690223d40c3d210e09a6
