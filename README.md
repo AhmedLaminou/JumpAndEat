@@ -1,7 +1,7 @@
 
 # 🎮 Ahmed Laminou Platformer
 
-![Platformer Preview](assets/screenshot.png)  <!-- Replace with an actual screenshot or GIF -->
+![Platformer Preview](assets/entry.png)  
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Pygame](https://img.shields.io/badge/Pygame-2.1.2-green?logo=pygame&logoColor=white)](https://www.pygame.org/)
